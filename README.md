@@ -22,7 +22,5 @@
     npm run dev
     ```
 
-## Groupe
 
-### Anthony Zhao, Amaury Sanchez, Ousmane Sacko, Amadou Aliou, Yakouba Sow
 
