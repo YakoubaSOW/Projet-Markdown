@@ -1,0 +1,25 @@
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.aside {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 1.25rem;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .aside {
+    width: 100%;
+    overflow-y : scroll;
+  }
+}

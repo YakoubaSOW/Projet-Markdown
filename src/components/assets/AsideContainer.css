@@ -1,0 +1,10 @@
+.asideContainer {
+    /*min-height: 200px;*/
+    margin: 50px 20px 50px 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: white 2px solid;
+    text-align: center;
+}

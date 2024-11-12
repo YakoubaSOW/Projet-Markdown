@@ -1,0 +1,43 @@
+/* Styles existants */
+#root {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sideBar {
+  background-color: #990000;
+  width: 20rem;
+}
+
+/* Media queries pour les petits écrans */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sideBar {
+    width: 100%;
+  }
+
+  .sideBar:first-of-type {
+    order: 3;
+  }
+
+  .sideBar:last-of-type {
+    order: 1;
+  }
+
+  main {
+    order: 2;
+  }
+
+}

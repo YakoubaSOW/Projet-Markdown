@@ -1,0 +1,31 @@
+.createContainer {
+    display: flex;
+    align-items: center;
+    /*margin-top: 10px;*/
+    max-width: 12.5rem;
+}
+
+.titleInput {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #990000;
+   border-radius: 5px 0 0 5px;
+    margin-right: 0;
+}
+
+.createButton {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: #000;
+    border: 2px solid #990000;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.createButton:hover {
+    background-color: #ff9900;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
